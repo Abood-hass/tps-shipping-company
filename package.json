@@ -19,7 +19,7 @@
     "smooth-scroll-into-view-if-needed": "^1.1.33"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="310e9732-4d23-4397-946a-438630ee6b5b" name="Default Changelist" comment="" />
+    <list default="true" id="310e9732-4d23-4397-946a-438630ee6b5b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/intro-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/01-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/01-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/02-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/02-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/03-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/03-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/04-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/04-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/05-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/05-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/06-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/06-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/07-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/07-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/08-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/08-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/09-large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/portfolio/09-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/team/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/team/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/team/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/team/04.jpg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +59,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2Cu6Ihpyam94zX2lUv3v1bbJBJf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,6 +84,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -59,11 +109,23 @@
       <workItem from="1659800690415" duration="1599000" />
       <workItem from="1659816179599" duration="14000" />
       <workItem from="1659868322529" duration="67000" />
+      <workItem from="1659869631226" duration="416000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="638" y="328" key="#ESLint" timestamp="1659776602173">
