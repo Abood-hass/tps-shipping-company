@@ -34,7 +34,7 @@ export const Header = (props) => {
             <div className='row'>
               <div className='col-md-8 col-md-offset-2 intro-text'>
                 <h1>
-                  <img src="http://www.taoseel.net/img/130logo.png" alt="" class="img-fluid"></img>
+                  <img src="https://i.imgur.com/A1i76NP.png" alt="" class="img-fluid"></img>
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
                 <a onClick={navigateToCalculator}
