@@ -5,22 +5,6 @@ import ExternalShipping from "./ShippingCalculator/ExternalShipping";
 
  const Calculator = () => {
 
-     let [Switch, setSwitch] = useState(false);
-     const switchState = () => {
-        if(Switch){
-            return (<ExternalShipping />)
-        }else {
-            return (<InternalShipping />)
-        }
-     }
-     const changeSwitch = () => {
-         if(Switch){
-             setSwitch(false)
-         }else {
-             setSwitch(true)
-         }
-         console.log(Switch)
-     }
 
      return (<>
     <Navigation />
@@ -31,20 +15,8 @@ import ExternalShipping from "./ShippingCalculator/ExternalShipping";
                   <form>
                       <div id={"con1"}>
                           <h3 id={"header"}>عنوان نقل الشحن</h3>
-                          <div>
-                              <span id={"exShipping"} className={"lab"}  >خارج العراق</span>
-                              <label className="switch">
-                              <input type="checkbox" onChange={() => {
-                                  changeSwitch()}}/>
-                                  <span className="slider"></span>
-                          </label>
-                              <span id={"inShipping"}  className={"lab"}>داخل العراق</span>
-                          </div>
-                          <br />
-                          <br />
-                          {switchState()}
+                          <ExternalShipping />
                       </div>
-
                       <div id={"con2"}>
                           <h3 id={"header"}>بيانات الشحنة</h3>
                           <div  id={"in"} className="mb-3">
