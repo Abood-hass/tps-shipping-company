@@ -17,7 +17,7 @@
       "title": "نمو هدفك هو هدفنا",
       "largeImage": "https://i.imgur.com/50Clqs7.jpg",
       "smallImage": "https://i.imgur.com/50Clqs7.jpg",
-      "url": "https://www.facebook.com/taoseelpost/?ref=page_internal"
+      "url": "https://lively-arithmetic-520941.netlify.app/"
     },
     {
       "title": "خدمتنا في يدك",
@@ -122,8 +122,8 @@
     "address": "4321 California St, San Francisco, CA 12345 ",
     "phone": "+1 123 456 1234",
     "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
+    "facebook": "https://www.facebook.com/taoseelpost/?ref=page_internal",
+    "twitter": "https://www.facebook.com/taoseelpost/?ref=page_internal",
     "youtube": "youtube.com"
   },
   "Features": [
