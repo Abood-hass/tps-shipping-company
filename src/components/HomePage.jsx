@@ -18,7 +18,8 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const HomePage = () => {
-    const [landingPageData, setLandingPageData] = useState({});
+
+        const [landingPageData, setLandingPageData] = useState({});
     useEffect(() => {
         setLandingPageData(JsonData);
     }, []);
@@ -27,6 +28,7 @@ const HomePage = () => {
         <div>
             <Navigation />
             <Header data={landingPageData.Header} />
+            <Gallery data={landingPageData.Gallery} />
             <About data={landingPageData.About} />
             <Contact data={landingPageData.Contact} />
         </div>

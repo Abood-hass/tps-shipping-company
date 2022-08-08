@@ -11,7 +11,7 @@ const ExternalShipping = () => {
                     className="form-control"
                     placeholder="ادخال"
                 >
-                    <option>طرد</option>
+                    <option>فلسطين</option>
                     <option>وثائق</option>
                 </select>
                 <br />

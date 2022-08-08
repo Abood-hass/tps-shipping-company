@@ -3,7 +3,6 @@ import {Navigation} from "./navigation";
 import InternalShipping from "./ShippingCalculator/InternalShipping";
 import ExternalShipping from "./ShippingCalculator/ExternalShipping";
 
-
  const Calculator = () => {
 
      let [Switch, setSwitch] = useState(false);
@@ -26,13 +25,14 @@ import ExternalShipping from "./ShippingCalculator/ExternalShipping";
      return (<>
     <Navigation />
 
-          <div dir={"rtl"} id='portfolio' className='text-right'>
-              <div id={"bg"}  className={"container"}>
+          <div id='portfolio' className='text-right'>
+              <div id={"bg"} dir={"rtl"}  className={"container"}>
+                  <h2>حساب سعر الشحنة</h2>
                   <form>
                       <div id={"con1"}>
                           <h3 id={"header"}>عنوان نقل الشحن</h3>
                           <div>
-                              <span id={"exShipping"} className={"lab"}>خارج العراق</span>
+                              <span id={"exShipping"} className={"lab"}  >خارج العراق</span>
                               <label className="switch">
                               <input type="checkbox" onChange={() => {
                                   changeSwitch()}}/>
@@ -81,6 +81,27 @@ import ExternalShipping from "./ShippingCalculator/ExternalShipping";
               </div>
 
           </div>
+
+         <div dir={"rtl"} id='portfolio2' className='text-right'>
+             <div id={"bg"}  className={"container"}>
+
+                 <table id="customers">
+                     <tr>
+                         <th>اتجاه الشحنة</th>
+                         <th>نوع الشحنة</th>
+                         <th>وزن الشحنة</th>
+                         <th>التكلفة الشحنة</th>
+                     </tr>
+                     <tr>
+                         <td> <span> من </span>العراق<span> الى </span>فلسطين</td>
+                         <td>طرد</td>
+                         <td>25<span> kg </span></td>
+                         <td className={"price-view"}>25<span> دينار عراقي </span></td>
+                     </tr>
+                 </table>
+
+             </div>
+         </div>
     </>
   );
 };

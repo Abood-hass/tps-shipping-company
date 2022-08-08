@@ -11,8 +11,8 @@ const InternalShipping = () => {
                     className="form-control"
                     placeholder="ادخال"
                 >
-                    <option>طرد</option>
-                    <option>وثائق</option>
+                    <option>بغداد</option>
+                    <option>بغداد</option>
                 </select>
                 <br />
             </div>
@@ -22,8 +22,8 @@ const InternalShipping = () => {
             className="form-control"
             placeholder="ادخال"
         >
-            <option>طرد</option>
-            <option>وثائق</option>
+            <option>بغداد</option>
+            <option>بغداد</option>
         </select>
     </div>
     <div  id={"in"}  className="mb-3">

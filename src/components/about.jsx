@@ -19,21 +19,12 @@ export const About = (props) => {
                       : "loading"}
                   </ul>
                 </div>
-                {/*<div className="col-lg-6 col-sm-6 col-xs-12">*/}
-                {/*  <ul>*/}
-                {/*    {props.data*/}
-                {/*      ? props.data.Why2.map((d, i) => (*/}
-                {/*          <li key={`${d}-${i}`}> {d}</li>*/}
-                {/*        ))*/}
-                {/*      : "loading"}*/}
-                {/*  </ul>*/}
-                {/*</div>*/}
               </div>
             </div>
           </div>
           <div className="col-xs-12 col-md-6">
             {" "}
-            <img src="img/directly-above-shot-delivery-men-260nw-366405377.jpg" className="img-responsive" alt="" />{" "}
+            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
           </div>
         </div>
       </div>
