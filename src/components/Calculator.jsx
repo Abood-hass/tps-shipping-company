@@ -121,15 +121,15 @@ import {fetchDataPaper, fetchDataPackage, paperType, packageType, neighboringCou
      let [price, setPrice] = useState(0);
 
 
-     const handleSubmit = async () => {
+     async function handleSubmit() {
 
-         if(shippingNeighboringCountriesStatus){
+         if (shippingNeighboringCountriesStatus) {
              console.log({
                  weight: weight,
                  country: country,
                  type: type,
                  shippingWay: "بري",
-                 packageContent:packageContent
+                 packageContent: packageContent
              })
              await fetch('http://localhost:3000/neighboringCountriesShipping', {
                  method: 'POST',
@@ -141,7 +141,7 @@ import {fetchDataPaper, fetchDataPackage, paperType, packageType, neighboringCou
                      country: country,
                      type: type,
                      shippingWay: shippingWay,
-                     packageContent:packageContent,
+                     packageContent: packageContent,
                      city: city
                  })
              }).then(function (response) {
@@ -154,7 +154,8 @@ import {fetchDataPaper, fetchDataPackage, paperType, packageType, neighboringCou
                      NotificationManager.warning('تاكد من إدخال البيانات', '', 3000);
                  }
              });
-         } if(shippingFromTurkeyStatus){
+         }
+         if (shippingFromTurkeyStatus) {
 
              await fetch('http://localhost:3000/turkeyShipping', {
                  method: 'POST',
@@ -174,31 +175,8 @@ import {fetchDataPaper, fetchDataPackage, paperType, packageType, neighboringCou
                      NotificationManager.warning('تاكد من إدخال البيانات', '', 3000);
                  }
              });
-         }else
-            //  if(shippingNeighboringCountriesStatus){
-            //      await fetch('http://localhost:3000/neighboringCountriesShipping', {
-            //          method: 'POST',
-            //          headers: {
-            //              'Content-Type': 'application/json;charset=utf-8'
-            //          },
-            //          body: JSON.stringify({
-            //              weight: weight,
-            //              country: country,
-            //              shippingWay: ShippingWays1[0],
-            //              city: city,
-            //              packageContent:packageContent
-            //          })
-            //      }).then(function (response) {
-            //          return response.json();
-            //      }).then(function (myJson) {
-            //          if (myJson['msg'] !== '') {
-            //              setPrice(myJson['msg']);
-            //          } else {
-            //              NotificationManager.warning('تاكد من إدخال البيانات', '', 3000);
-            //          }
-            //      });
-            // }else
-                {
+         } else {
+
              await fetch('http://localhost:3000/', {
                  method: 'POST',
                  headers: {
@@ -209,7 +187,7 @@ import {fetchDataPaper, fetchDataPackage, paperType, packageType, neighboringCou
                      country: country,
                      type: type,
                      shippingWay: shippingWay,
-                     packageContent:packageContent
+                     packageContent: packageContent
                  })
              }).then(function (response) {
                  return response.json();
