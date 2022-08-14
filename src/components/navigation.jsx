@@ -42,12 +42,12 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             
           <li>
-              <a onClick={navigateToHomePage}  className='page-scroll'>
+              <a   className='page-scroll'>
                 التواصل
               </a>
             </li>
             <li>
-              <a onClick={navigateToHomePage}  className='page-scroll'>
+              <a  className='page-scroll'>
                 نحن
               </a>
             </li>

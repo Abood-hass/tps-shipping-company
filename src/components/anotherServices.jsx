@@ -1,6 +1,6 @@
 import { Image } from "./image";
 
-export const Gallery = (props) => {
+export const AnotherServices = (props) => {
   return (
     <div id='portfolio' className='text-center'>
       <div className='container'>

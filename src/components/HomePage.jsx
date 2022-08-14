@@ -4,7 +4,7 @@ import { Header } from "./header";
 import { Features } from "./features";
 import { About } from "./about";
 import { Services } from "./services";
-import { Gallery } from "./gallery";
+import { AnotherServices } from "./anotherServices";
 import { Testimonials } from "./testimonials";
 import { Team } from "./Team";
 import { Contact } from "./contact";
@@ -28,7 +28,7 @@ const HomePage = () => {
         <div>
             <Navigation />
             <Header data={landingPageData.Header} />
-            <Gallery data={landingPageData.Gallery} />
+            <AnotherServices data={landingPageData.Gallery} />
             <About data={landingPageData.About} />
             <Contact data={landingPageData.Contact} />
         </div>

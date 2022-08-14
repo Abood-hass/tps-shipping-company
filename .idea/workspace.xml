@@ -20,7 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="310e9732-4d23-4397-946a-438630ee6b5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Countries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Calculator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Calculator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShippingCalculator/.idea/ShippingCalculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShippingCalculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShippingCalculator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShippingCalculator/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShippingCalculator/ExternalShipping.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShippingCalculator/InternalShipping.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/anotherServices.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +47,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -64,12 +81,12 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\DELL\Documents\React-Landing-Page-Template-master\src\components\ShippingCalculator" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\Documents\Jobs\tps-shipping-company\public\img" />
       <recent name="C:\Users\DELL\Documents\Jobs\tps-shipping-company\public\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Documents\React-Landing-Page-Template-master\src\components\ShippingCalculator" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -90,7 +107,19 @@
       <workItem from="1659816179599" duration="14000" />
       <workItem from="1659868322529" duration="67000" />
       <workItem from="1659869631226" duration="18631000" />
-      <workItem from="1659912339780" duration="13562000" />
+      <workItem from="1659912339780" duration="17656000" />
+      <workItem from="1659984220763" duration="4271000" />
+      <workItem from="1660037173008" duration="7600000" />
+      <workItem from="1660049706583" duration="2114000" />
+      <workItem from="1660150699545" duration="6289000" />
+      <workItem from="1660162011636" duration="3657000" />
+      <workItem from="1660205163337" duration="3632000" />
+      <workItem from="1660213683866" duration="13524000" />
+      <workItem from="1660247294239" duration="460000" />
+      <workItem from="1660252005042" duration="2758000" />
+      <workItem from="1660302685895" duration="1061000" />
+      <workItem from="1660408678406" duration="2110000" />
+      <workItem from="1660462638336" duration="16324000" />
     </task>
     <servers />
   </component>
@@ -110,10 +139,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="638" y="328" key="#ESLint" timestamp="1659776602173">
+    <state x="638" y="328" key="#ESLint" timestamp="1660464824360">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="638" y="328" key="#ESLint/0.0.1536.834@0.0.1536.834" timestamp="1659776602173" />
+    <state x="638" y="328" key="#ESLint/0.0.1536.834@0.0.1536.834" timestamp="1660464824360" />
     <state x="361" y="75" width="814" height="729" key="#Intentions" timestamp="1659714186930">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -122,10 +151,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="654" y="280" width="570" height="274" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1659644725219" />
-    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1659887487047">
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1660049941909">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1659887487047" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1660049941909" />
     <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1659816190852">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -134,9 +163,17 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1659878250844" />
-    <state x="425" y="189" key="run.anything.popup" timestamp="1659898774267">
+    <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1660464369866">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1659898774267" />
+    <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1660464369866" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1660482262344">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1660482262344" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1660232974576">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1660232974576" />
   </component>
 </project>

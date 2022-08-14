@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/earlyaccess/droidarabickufi.css');
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 
 body,
 html {
@@ -124,11 +125,12 @@ hr {
 }
 #header{
   padding-bottom: 25px;
-  margin-top: -5px;
+  margin-top: 10px;
   font-family:  Tahoma;
 }
 #submit{
   padding: 5px 40px;
+  margin-top: 15px;
   background: tan;
 }
 #submit:hover{
@@ -356,8 +358,7 @@ a:focus,
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin-top: -150px;
 }
 .intro h1 span {
   font-weight: 800;
@@ -589,6 +590,17 @@ header .intro-text {
   font-size: 15px;
   font-weight: 600;
   color: #666;
+}
+.central-text{
+  text-align: center;
+  font-family: 'Droid Arabic Kufi', serif;
+  border-style: solid;
+  border-color: #1f386e;
+  background-color: #f5dd89;
+  padding: 15px 0px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
 }
 /* Team Section */
 #team {
